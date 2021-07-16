@@ -1,0 +1,6 @@
+[MM]
+Measure=Plugin
+Plugin=MagickMeter
+Image=Text [H]#CRLF#[M] | Align RightCenter | Face #Font# | Size #Size# | TextKerning #Kerning# | LineSpacing #LineSpacing# | OffSet (#Size#*100/60),(#Size#*80/60) | Move 25,25 | Color #TextColor# | Shadow 60,5 ; #GlowColor# | Canvas (#Size#*100/60), (#Size#*160/60)
+OnFinishAction=[!UpdateMeasure Width][!UpdateMeter MeterImage][!Redraw]
+UpdateDivider=-1
